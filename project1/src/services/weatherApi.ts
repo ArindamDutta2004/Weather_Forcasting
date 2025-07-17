@@ -1,8 +1,8 @@
 import axios from 'axios';
 import { CurrentWeather, ForecastData } from '../types/weather';
 
-const API_KEY = 'AIzaSyDBSwYrSCxqaf1cK0Qy-wTT-qGl11UE3Cc'; // Your working OpenWeatherMap API key
-const BASE_URL = 'https://weather.googleapis.com/v1/forecast/days:lookup';
+const API_KEY = '3f5f3e1e2acc15b98dec7117aee33736'; // Your working OpenWeatherMap API key
+const BASE_URL = 'https://api.openweathermap.org/data/2.5';
 
 class WeatherAPI {
   private apiKey: string;
